@@ -1,0 +1,12 @@
+{
+  "name": "atividade2",
+  "version": "1.0.0",
+  "description": "Criamos uma classe filme com os statatements titulo, ano, duracao , genero , se foi assistido e avaliacao do filme",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start" : "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
