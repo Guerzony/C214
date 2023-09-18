@@ -1,10 +1,10 @@
 <script>
-	// Variáveis de estado
-	let peso = 0;      // Peso do usuário
-	let altura = 0;    // Altura do usuário
-	let imc = 0;       // Índice de Massa Corporal
+	
+	let peso = 0;    
+	let altura = 0;   
+	let imc = 0;       
 	let classificacao = '';
-	// Função para calcular o IMC
+
 	function calcularIMC() {
 	  if (peso > 0 && altura > 0) {
 		imc = (peso / Math.pow(altura, 2)).toFixed(2);
