@@ -9,7 +9,7 @@ chai.use(chaiHttp);
 chai.should(); // Configura should para poder ser usado
 
 describe('Testes das rotas de tasks:', function() {
-  this.timeout(5000);
+  this.timeout(5000); 
   //Teste de busca das tasks
   let id;
   it('/GET', async () => { 
@@ -35,17 +35,19 @@ describe('Testes das rotas de tasks:', function() {
     const response = await request(app)
     .post('/tasks')
     .send(newTarefa)
-    id=response.body["_id"];
+    id = response.body["_id"];
     response.should.have.status(201);
     expect(newTarefa["title"]).to.eql(response.body["title"]);
     }catch(err) {
-      id=response.body["_id"];
     console.log("Erro: " + err);
+    id = response.body["_id"];
     }
   });
 
+  //Teste de update de tarefa
   it('/PUT', async () => { 
     let taskUpdate = {
+        "description": "De tarde",
         "status": "Concluida",
     }
     const resposta = "Task atualizada com sucesso!";

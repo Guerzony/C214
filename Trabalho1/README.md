@@ -1,6 +1,7 @@
 ## Integrantes 
-    Gabriel Henrique Guerzoni Ribeiro - 235 - GES
     Nathan Santos Ataliba - 1663 - GEC
+    Gabriel Henrique Guerzoni Ribeiro - 235 - GES
+    
 
 ## Descrição Projeto : 
 
@@ -9,4 +10,3 @@
 - Além de quatro testes unitarios referentes a criação, atualização, remoção e busca de tasks.
 
 - Foi utilizado nodeJS para ambientação do projeto e utilizamos o banco de dados MONGODB para armazenar as tasks.
-
