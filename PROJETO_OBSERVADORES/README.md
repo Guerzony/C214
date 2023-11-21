@@ -5,7 +5,9 @@
 - Contar palavras começadas com maiúsculas.
 - Utilize o padrão observer
 
-# DESCRICAO DA ATIVIDADE Criar  um aplicativo (programa) que recebe uma frase e quebre em palavras(String). A aplicação deve contar as palavras.
+# DESCRICAO DA ATIVIDADE 
+
+Criar  um aplicativo (programa) que recebe uma frase e quebre em palavras(String). A aplicação deve contar as palavras.
 
 # Comandos para utilização do projeto:
 
