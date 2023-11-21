@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Observador_1 = require("./contadores/Observador");
+var Observavel_1 = require("./contadores/Observavel");
+var observador1 = new Observador_1.default(1);
+var observador2 = new Observador_1.default(2);
+var observavel = new Observavel_1.default();
+observavel.adicionarObservador(observador1);
+observavel.adicionarObservador(observador2);
+observavel.setFrase("Um exemplo de frase muito boa");
+console.log(observavel.notificarObservadores());
